@@ -13,13 +13,15 @@ This repository contains my personal configuration files (dotfiles) for a sleek,
 
 ---
 
-## ✨ Features
+## ✨ Key Features of This Hyprland Configuration
 
-- **Minimalist & Clean:** Designed to be visually appealing without unnecessary clutter.
-- **Efficient Workflow:** Keyboard-driven workflow with intuitive keybindings powered by Hyprland.
-- **Dynamic Theming:** Uses `matugen` to generate a color palette from the current wallpaper for a cohesive look across applications.
-- **Lightweight Components:** Built with a focus on performance, using lightweight applications like `kitty`, `rofi`, and `thunar`.
-- **Ready-to-Use:** Includes configurations for essential system components like the status bar, notifications, and application launcher.
+This configuration is meticulously crafted to deliver a modern, fast, and visually appealing desktop experience on Wayland.
+
+* **Minimalist & Aesthetic Design:** The entire setup is engineered to be **visually clean** and **uncluttered**, promoting focus without sacrificing aesthetics.
+* **Hyper-Efficient Workflow:** Centered around a **keyboard-driven workflow**, this setup leverages Hyprland's powerful keybindings for lightning-fast window and session management.
+* **Dynamic, Cohesive Theming:** Achieves a unified look across the desktop using **`matugen`** to automatically generate a complementary color palette directly from the active wallpaper, ensuring theme cohesion across all applications.
+* **Performance-First Approach:** The system prioritizes speed and low resource usage by utilizing **lightweight, powerful components** such as the **`kitty`** terminal, **`shelock`** application launcher, and **`nautilus`** file manager.
+* **Seamless Integration:** It comes **ready-to-use** with pre-configured settings for all critical system components, including the status bar, notification system, and application launcher, allowing for immediate productivity.
 
 ---
 
