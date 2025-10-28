@@ -139,10 +139,7 @@ The workflow is centered around the `Win` (Super) key.
 | `SUPER + Return` | Open **Terminal** | `kitty` |
 | `SUPER + E` | Open **File Manager** | `nautilus` |
 | `SUPER + W` | Open **Web Browser** | `zen-browser` |
-| `SUPER + B` | Launch **Waybar** | `waybar &` |
-| `SUPER + N` | Open **Music Client** | `ncmpcpp` (in Alacritty) |
 | `SUPER + M` | Exit/Logout Menu | `~/.config/wlogout/wlogout.sh` |
-| `SUPER + CTRL + D` | Open **Discord** | `discord --proxy-server="http://127.0.0.1:8080"` |
 
 ### ⚙️ System, Session & Rofi Scripts
 
@@ -203,10 +200,6 @@ The workflow is centered around the `Win` (Super) key.
 | `XF86AudioLowerVolume` | **Volume Down** (5% decrement) | `wpctl set-volume` |
 | `XF86AudioMute` | **Toggle Audio Mute** | `wpctl set-mute` |
 | `XF86AudioMicMute` | **Toggle Mic Mute** | `wpctl set-mute` |
-| `XF86MonBrightnessUp` | **Brightness Up** (5% increment) | `brightnessctl set 5%+` |
-| `XF86MonBrightnessDown`| **Brightness Down** (5% decrement) | `brightnessctl set 5%-` |
-| `F2` | **Brightness Up** (10% increment) | `brightnessctl set +10%` |
-| `F1` | **Brightness Down** (10% decrement) | `brightnessctl set 10%-` |
 
 </details>
 
