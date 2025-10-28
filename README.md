@@ -105,8 +105,8 @@ This is a comprehensive list of the packages used in the current configuration, 
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/Bizahmet4965/AhmetDots.git
-    cd AhmetDots
+    git clone [https://github.com/Bizahmet4965/hyprdots2.git]
+    cd hyprdots2
     ```
 
 2.  **Backup your existing configuration:**
@@ -116,10 +116,10 @@ This is a comprehensive list of the packages used in the current configuration, 
     Link the configuration files from this repository to your `~/.config` directory.
     ```bash
     # Example for hyprland config
-    ln -s -f ~/AhmetDots/Config/hypr/hyprland.conf ~/.config/hypr/hyprland.conf
+    ln -s -f ~/hyprdots2/.config/hypr/hyprland.conf ~/.config/hypr/hyprland.conf
 
     # Example for kitty config
-    ln -s -f ~/AhmetDots/Config/kitty/kitty.conf ~/.config/kitty/kitty.conf
+    ln -s -f ~/hyprdots2/.config/kitty/kitty.conf ~/.config/kitty/kitty.conf
 
     like this
     ```
@@ -206,8 +206,8 @@ The workflow is centered around the `Win` (Super) key.
 </details>
 
 ---
-Note! Replace the files in /home/ahmet (in the files (keybindings) in /home/XXXX/.config/hypr/modules)
+Note! Pay attention to the script files in the home and .config files. It should be /home/user. Theme in qt applications is not very good.
 
-The dots I took as examples are https://github.com/Abhra00/Matuprland and https://github.com/HyDE-Project/HyDE
+The dots I took as examples are https://github.com/Abhra00/Matuprland, https://github.com/HyDE-Project/HyDE and https://github.com/binnewbs/arch-hyprland
 
 Enjoy the setup!
