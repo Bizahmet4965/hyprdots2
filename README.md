@@ -132,48 +132,81 @@ The workflow is centered around the `Win` (Super) key.
 <details>
 <summary><strong>Click to expand Keybindings</strong></summary>
 
-### Basic Application and Window Management
+### 🚀 Application Launches
+
+| Shortcut | Action | Command/Application |
+|---|---|---|
+| `SUPER + Return` | Open **Terminal** | `kitty` |
+| `SUPER + E` | Open **File Manager** | `nautilus` |
+| `SUPER + W` | Open **Web Browser** | `zen-browser` |
+| `SUPER + B` | Launch **Waybar** | `waybar &` |
+| `SUPER + N` | Open **Music Client** | `ncmpcpp` (in Alacritty) |
+| `SUPER + M` | Exit/Logout Menu | `~/.config/wlogout/wlogout.sh` |
+| `SUPER + CTRL + D` | Open **Discord** | `discord --proxy-server="http://127.0.0.1:8080"` |
+
+### ⚙️ System, Session & Rofi Scripts
+
+| Shortcut | Action | Command/Application |
+|---|---|---|
+| `SUPER + L` | **Lock Screen** | `hyprlock` |
+| `SUPER + SHIFT + B` | **Kill Waybar** | `pkill waybar` |
+| `SUPER + D` | Run **Sherlock** | `sherlock` |
+| `SUPER + SHIFT + W` | **Wallpaper** Chooser | `~/scripts/system/sWallpaperRofi.sh` (Rofi) |
+| `SUPER + SHIFT + D` | **Side Launcher** Menu | `~/.config/rofi/launchers/sidelaunchers.sh` |
+| `SUPER + V` | **Clipboard History** | `~/.config/rofi/scripts/cliphist.sh` (Rofi) |
+| `SUPER + SHIFT + E` | **Emoji** Chooser | `~/.config/rofi/scripts/rofiEmoji.sh` (Rofi) |
+| `SUPER + SHIFT + G` | **Web Search** Prompt | `/home/ahmet/.config/rofi/scripts/websearch.sh` (Rofi) |
+| `SUPER + F` | **TDK Dictionary** | Rofi script for Turkish Dictionary. |
+| `SUPER + K` | **Prayer Times** Notification | `.NET 8.0` application launch. |
+| `SUPER + SHIFT + P` | Toggle **Audio** | `~/.config/scripts/audio-toggle.sh` |
+| `SUPER + P` | Toggle **Media Play/Pause** | `~/scripts/media/playPause.sh` |
+
+### 📸 Screenshot
+
+| Shortcut | Action | Command/Application |
+|---|---|---|
+| `SUPER + S` | Take **Full Screenshot** | `~/.config/scripts/screenshot/fullshot.sh` |
+| `SUPER + SHIFT + S` | Take **Area Screenshot** | `~/.config/scripts/screenshot/areasnap.sh` (using `slurp` and `swappy`) |
+
+### 🧱 Window Management
 
 | Shortcut | Action |
 |---|---|
-| `Win + Return` | Open terminal (`kitty`) |
-| `Win + Q` | Close active window |
-| `Win + E` | Open file manager (`nautilus`) |
-| `Win + D` | Open application launcher (`sherlock`) |
-| `Win + F` | Turkish dictionary (`rofi`) |
-| `Win + Space` | Toggle floating mode |
+| `SUPER + SHIFT + Q` | **Kill** active window |
+| `SUPER + SPACE` | **Toggle Floating** mode for active window |
+| `SUPER + J` | **Toggle Split** direction/mode (for tiling) |
 
-### System and Session Management
+### 🧭 Window Focus and Movement
 
 | Shortcut | Action |
 |---|---|
-| `Win + L` | Lock | (`hyprlock`)
-| `Win + M` | Show logout menu (`wlogout`) |
-| `Win + Shift + L` | Lock the screen (`hyprlock`) |
-| `Win + S` | Take a screenshot (fullscreen) |
-| `Win + Shift + S` | Take a screenshot of a selected area | 
+| `SUPER + Left/Right/Up/Down` | **Move Focus** (to window in direction) |
+| `SUPER + Mouse Left Button (272)` | **Move Window** with mouse |
+| `SUPER + Mouse Right Button (273)` | **Resize Window** with mouse |
 
-### Window Focus and Movement
+### 🖥️ Workspaces
 
 | Shortcut | Action |
 |---|---|
-| `Win + Arrow Keys` | Focus window in the specified direction |
+| `SUPER + [0-9]` | **Switch to Workspace** 0 through 9 |
+| `SUPER + SHIFT + [0-9]` | **Move Active Window** to Workspace 0 through 9 |
+| `SUPER + Mouse Wheel Up/Down` | **Cycle** through workspaces |
 
-### Workspaces
+### 🎧 Multimedia and Hardware Controls
 
-| Shortcut | Action |
-|---|---|
-| `Win + [1-9]` | Switch to workspace 1-9 |
-| `Win + Shift + [1-9]` | Move focus window to workspace 1-9 |
-| `Win + Mouse Wheel` | Cycle through workspaces |
-
-### Multimedia and Hardware Controls
-
-| Shortcut | Action |
-|---|---|
-| `Media Keys` | Control media playback (`playerctl`) |
-| `Volume Keys` | Adjust system volume (`wpctl`) |
-| `Brightness Keys` | Adjust screen brightness (`hyprsunset`) |
+| Shortcut | Action | Control Type |
+|---|---|---|
+| `XF86AudioNext` | **Next** Track | `playerctl next` |
+| `XF86AudioPause/Play` | **Play/Pause** Media | `playerctl play-pause` |
+| `XF86AudioPrev` | **Previous** Track | `playerctl previous` |
+| `XF86AudioRaiseVolume` | **Volume Up** (5% increment) | `wpctl set-volume` |
+| `XF86AudioLowerVolume` | **Volume Down** (5% decrement) | `wpctl set-volume` |
+| `XF86AudioMute` | **Toggle Audio Mute** | `wpctl set-mute` |
+| `XF86AudioMicMute` | **Toggle Mic Mute** | `wpctl set-mute` |
+| `XF86MonBrightnessUp` | **Brightness Up** (5% increment) | `brightnessctl set 5%+` |
+| `XF86MonBrightnessDown`| **Brightness Down** (5% decrement) | `brightnessctl set 5%-` |
+| `F2` | **Brightness Up** (10% increment) | `brightnessctl set +10%` |
+| `F1` | **Brightness Down** (10% decrement) | `brightnessctl set 10%-` |
 
 </details>
 
