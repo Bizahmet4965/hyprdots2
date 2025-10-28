@@ -26,13 +26,76 @@ This repository contains my personal configuration files (dotfiles) for a sleek,
 ## 🛠️ Software Requirements
 
 This setup relies on the following software. Please ensure they are installed on your system.
+# 📦 Hyprland Desktop Environment Package List
 
-- **Window Manager / Desktop:** `hyprland`, `hypridle`, `hyprpaper`, `hyprpicker`, `hyprsunset` `swayimg`
-- **System Utilities:** `kitty`, `nautilus`, `rofi`, `sherlock`, `wlogout`, `hyprlock`, `hypridle`, `swww`, `fastfetch`
-- **Audio & Media:** `pipewire-alsa`, `pipewire-pulse`, `wireplumber`, `mpd`, `ncmpcpp`, `cava`, `pamixer`, `pavucontrol`, `easyeffects`, `rhythmbox`, `decibels`
-- **Theming & Fonts:** `matugen-bin`, `kvantum`, `noto-fonts`, `noto-fonts-cjk`, `noto-fonts-emoji`, `ttf-bitstream-vera`, `ttf-dejavu`, `ttf-libration`, `ttf-meslo-nerd`, `ttf-opensans`, `papirus-icon-theme`, `tela-circle-icon-theme-dracula`
-- **File Tools:** `unzip`, `unrar`, `zathura`
-- **Additional Application:** `zen-browser`
+This is a comprehensive list of the packages used in the current configuration, categorized by their primary function.
+
+## 🖥️ Window Management & Desktop
+
+| Component | Package Name | Description |
+| :--- | :--- | :--- |
+| **Wayland Compositor** | `hyprland` | The dynamic tiling Wayland window manager. |
+| **Idle Management** | `hypridle` | Utility to manage the system's idle state. |
+| **Wallpaper** | `hyprpaper` | Simple Wayland wallpaper utility. |
+| **Color Picker** | `hyprpicker` | A color-picking tool for Wayland. |
+| **Sunset Effect** | `hyprsunset` | (Assumed utility for color temperature/sunset effects). |
+| **Image Viewer** | `swayimg` | Minimal and fast image viewer for Wayland. |
+
+## 🛠️ System Utilities
+
+| Component | Package Name | Description |
+| :--- | :--- | :--- |
+| **Terminal Emulator** | `kitty` | Fast, GPU-accelerated terminal emulator. |
+| **File Manager** | `nautilus` | GNOME's feature-rich file manager. |
+| **Application Launcher** | `rofi` | Highly customizable window switcher and launcher. |
+| **Screen Capture** | `sherlock` | (Assumed screen capture/recording utility). |
+| **Logout Menu** | `wlogout` | Graphical logout menu for Wayland. |
+| **Screen Locker** | `hyprlock` | Screen locking utility. |
+| **Wallpaper** | `swww` | A modern Wayland wallpaper utility (Alternative to `hyprpaper`). |
+| **System Info** | `fastfetch` | Fast and highly customizable system information tool. |
+
+## 🎵 Audio & Media
+
+| Component | Package Name | Description |
+| :--- | :--- | :--- |
+| **PipeWire Compatibility** | `pipewire-alsa` | ALSA compatibility layer for PipeWire. |
+| **PipeWire Compatibility** | `pipewire-pulse` | PulseAudio compatibility layer for PipeWire. |
+| **Session Manager** | `wireplumber` | PipeWire session and policy manager. |
+| **Music Daemon** | `mpd` | Music Player Daemon (Backend). |
+| **MPD Client (CLI)** | `ncmpcpp` | CLI client for MPD. |
+| **Visualizer** | `cava` | Console-based audio visualizer. |
+| **Volume Control (CLI)** | `pamixer` | Command-line PulseAudio mixer. |
+| **Volume Control (GUI)** | `pavucontrol` | Graphical volume control (for PipeWire/PulseAudio). |
+| **Audio Effects** | `easyeffects` | Audio effects and equalizer. |
+| **Music Player** | `rhythmbox` | GNOME music player. |
+| **Podcast Player** | `decibels` | GNOME podcast player. |
+
+## 🎨 Theming & Fonts
+
+| Component | Package Name | Description |
+| :--- | :--- | :--- |
+| **Theme Generator** | `matugen-bin` | Tool to generate material themes. |
+| **Qt Theming** | `kvantum` | Qt theming engine. |
+| **Main Fonts** | `noto-fonts` | Noto Font family. |
+| **CJK Fonts** | `noto-fonts-cjk` | Noto fonts for Chinese, Japanese, and Korean. |
+| **Emoji Fonts** | `noto-fonts-emoji` | Noto Emoji fonts. |
+| **Classic Fonts** | `ttf-bitstream-vera`, `ttf-dejavu`, `ttf-libration`, `ttf-opensans` | Common, high-quality font families. |
+| **Nerd Fonts** | `ttf-meslo-nerd` | Meslo font with added icons/glyphs (Nerd Font). |
+| **Icon Theme** | `papirus-icon-theme` | Popular flat icon theme. |
+| **Icon Theme** | `tela-circle-icon-theme-dracula` | Dracula themed circle icon set. |
+
+## 🗃️ File Tools
+
+| Component | Package Name | Description |
+| :--- | :--- | :--- |
+| **Extraction** | `unzip`, `unrar` | Utilities for extracting ZIP and RAR archives. |
+| **Document Viewer** | `zathura` | Minimal, keyboard-driven document viewer. |
+
+## ➕ Additional Application
+
+| Component | Package Name | Description |
+| :--- | :--- | :--- |
+| **Web Browser** | `zen-browser` | (Specific/Additional web browser application). |
 
 ---
 
