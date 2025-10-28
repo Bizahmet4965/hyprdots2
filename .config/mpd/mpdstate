@@ -1,0 +1,26 @@
+sw_volume: 96
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: play
+current: 7
+time: 125.058
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 5
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: 
+playlist_begin
+0:Absolute Zero - Notori - Wind Breaker.opus
+1:Mehmet Atlı - Nêrgiz.opus
+2:Mehmet Atlı - Pêşiya Malê.opus
+3:WIND BREAKER - Ending FULL ＂Muteki＂ by Young Kee (Lyrics) [tvLK26EjWkE].opus
+4:WIND BREAKER Season 2 - Opening FULL ＂BOYZ＂ by SixTONES (Lyrics) [wXNHkvH6ttc].opus
+5:Xero Abbas - Derde Duri Ye.opus
+6:Yahya Bassal - Salawat.opus
+7:CVRTOON - Şeyh Şamil (Sheikh Shamil) [DUqsqiiooP4].opus
+8:Mehmet Atlı - Nêrgiz (2020 © Kom Müzik) [YUYco6d3n-Q].opus
+9:Fairuz - Bınt El Shalabeya ｜ Türkçe Çeviri [hgbrdKHzcC8].opus
+playlist_end
