@@ -4,6 +4,9 @@ This repository contains my personal configuration files (dotfiles) for a sleek,
 
 ![Desktop Screenshot] <img width="2560" height="1600" alt="Desktop Screenshot-1" src="https://github.com/user-attachments/assets/db7228b8-d9b3-4e0a-a675-2d0a9f2705b8" />
 ---
+![Desktop Screenshot 2] <img width="2560" height="1600" alt="Desktop Screenshot-2" src="https://github.com/user-attachments/assets/8ed2a29c-b9df-47cc-a488-2c1e76c36c90" />
+---
+![Desktop Screenshot 3] <img width="2560" height="1600" alt="Desktop Screenshot-3" src="https://github.com/user-attachments/assets/3e065b1d-f5d6-4f8d-9506-309268c71902" />
 
 
 *A showcase of the desktop environment, featuring a clean layout and consistent theming.*
@@ -24,12 +27,12 @@ This repository contains my personal configuration files (dotfiles) for a sleek,
 
 This setup relies on the following software. Please ensure they are installed on your system.
 
-- **Window Manager:** `hyprland`
-- **System Utilities:** `kitty`, `thunar`, `rofi`, `wlogout`, `hyprlock`, `hypridle`, `swww`, `fastfetch`
-- **Audio & Media:** `pipewire`, `wpctl`, `playerctl`, `mpd`, `ncmpcpp`
-- **Theming & Visuals:** `matugen`, `gtk3`, `gtk4`
-- **System Control:** `brightnessctl`
-- **Dependencies:** `dotnet-8.0`
+- **Window Manager / Desktop:** `hyprland`, `hypridle`, `hyprpaper`, `hyprpicker`, `hyprsunset` `swayimg`
+- **System Utilities:** `kitty`, `nautilus`, `rofi`, `sherlock`, `wlogout`, `hyprlock`, `hypridle`, `swww`, `fastfetch`
+- **Audio & Media:** `pipewire-alsa`, `pipewire-pulse`, `wireplumber`, `mpd`, `ncmpcpp`, `cava`, `pamixer`, `pavucontrol`, `easyeffects`, `rhythmbox`, `decibels`
+- **Theming & Fonts:** `matugen-bin`, `kvantum`, `noto-fonts`, `noto-fonts-cjk`, `noto-fonts-emoji`, `ttf-bitstream-vera`, `ttf-dejavu`, `ttf-libration`, `ttf-meslo-nerd`, `ttf-opensans`, `papirus-icon-theme`, `tela-circle-icon-theme-dracula`
+- **File Tools:** `unzip`, `unrar`, `zathura`
+- **Additional Application:** `zen-browser`
 
 ---
 
@@ -70,37 +73,35 @@ The workflow is centered around the `Win` (Super) key.
 
 | Shortcut | Action |
 |---|---|
-| `Win + Q` | Open terminal (`kitty`) |
-| `Win + C` | Close active window |
-| `Win + E` | Open file manager (`thunar`) |
-| `Win + R` | Open application launcher (`rofi`) |
-| `Win + F` | Toggle fullscreen |
-| `Win + V` | Toggle floating mode |
-| `Win + K` | Shows Prayer Times as Notification 
-| `Win + CTRL + D` | Open Discord |
+| `Win + Return` | Open terminal (`kitty`) |
+| `Win + Q` | Close active window |
+| `Win + E` | Open file manager (`nautilus`) |
+| `Win + D` | Open application launcher (`sherlock`) |
+| `Win + F` | Turkish dictionary (`rofi`) |
+| `Win + Space` | Toggle floating mode |
 
 ### System and Session Management
 
 | Shortcut | Action |
 |---|---|
-| `Win + M` | Exit Hyprland session |
-| `Win + L` | Show logout menu (`wlogout`) |
+| `Win + L` | Lock | (`hyprlock`)
+| `Win + M` | Show logout menu (`wlogout`) |
 | `Win + Shift + L` | Lock the screen (`hyprlock`) |
-| `PrintScreen` | Take a screenshot of a selected area |
+| `Win + S` | Take a screenshot (fullscreen) |
+| `Win + Shift + S` | Take a screenshot of a selected area | 
 
 ### Window Focus and Movement
 
 | Shortcut | Action |
 |---|---|
 | `Win + Arrow Keys` | Focus window in the specified direction |
-| `Win + Shift + Arrow Keys` | Move active window in the specified direction |
 
 ### Workspaces
 
 | Shortcut | Action |
 |---|---|
 | `Win + [1-9]` | Switch to workspace 1-9 |
-| `Win + Shift + [1-9]` | Move active window to workspace 1-9 |
+| `Win + Shift + [1-9]` | Move focus window to workspace 1-9 |
 | `Win + Mouse Wheel` | Cycle through workspaces |
 
 ### Multimedia and Hardware Controls
@@ -109,7 +110,7 @@ The workflow is centered around the `Win` (Super) key.
 |---|---|
 | `Media Keys` | Control media playback (`playerctl`) |
 | `Volume Keys` | Adjust system volume (`wpctl`) |
-| `Brightness Keys` | Adjust screen brightness (`brightnessctl`) |
+| `Brightness Keys` | Adjust screen brightness (`hyprsunset`) |
 
 </details>
 
