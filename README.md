@@ -20,7 +20,7 @@ This configuration is meticulously crafted to deliver a modern, fast, and visual
 * **Minimalist & Aesthetic Design:** The entire setup is engineered to be **visually clean** and **uncluttered**, promoting focus without sacrificing aesthetics.
 * **Hyper-Efficient Workflow:** Centered around a **keyboard-driven workflow**, this setup leverages Hyprland's powerful keybindings for lightning-fast window and session management.
 * **Dynamic, Cohesive Theming:** Achieves a unified look across the desktop using **`matugen`** to automatically generate a complementary color palette directly from the active wallpaper, ensuring theme cohesion across all applications.
-* **Performance-First Approach:** The system prioritizes speed and low resource usage by utilizing **lightweight, powerful components** such as the **`kitty`** terminal, **`shelock`** application launcher, and **`nautilus`** file manager.
+* **Performance-First Approach:** The system prioritizes speed and low resource usage by utilizing **lightweight, powerful components** such as the **`kitty`** terminal, **`sherlock`** application launcher, and **`nautilus`** file manager.
 * **Seamless Integration:** It comes **ready-to-use** with pre-configured settings for all critical system components, including the status bar, notification system, and application launcher, allowing for immediate productivity.
 
 ---
